@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer {
+  background-color: #fff;
+  /* margin: 5px; */
+  padding: 30px 10px;
+  /* border: 1px solid black; */
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  /* border-radius: 11px; */
+  margin-top: 50px;
+  /* margin-bottom: 20px; */
+  text-align: center;
+}
+
+/* * Shimmer */
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px 25px;
+  /* margin: 0 20px; */
+  margin-top: 105px;
+}
+
+.shimmer-card {
+  /* width: 200px;
+  height: 400px;
+  margin: 20px;
+  border-radius: 11px;
+   */
+
+  width: 200px;
+  height: 450px;
+  background-color: #efefef;
+  /* height: 300px; */
+  /* padding: 5px; */
+  /* padding-bottom: 20px; */
+  /* border: 1px solid transparent; */
+
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.shimmer-menu,
+.shimmer-menu-main {
+  background-color: #efefef;
+}
+
+/*Animation to Shimmer Component Card and Menu card Start*/
+.stroke {
+  /* height: 15px; */
+  background: #777;
+}
+
+.stroke-color {
+  background: #777;
+}
+
+.animate {
+  animation: shimmer 3s;
+  animation-iteration-count: infinite;
+  background: linear-gradient(to right, #e6e6e6 5%, #cccccc 25%, #e6e6e6 35%);
+  background-size: 1000px 100%;
+}
